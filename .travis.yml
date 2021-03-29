@@ -13,4 +13,5 @@ before_install:
     - eval "${MATRIX_EVAL}"
     
 install:
-  g++ kursach.cpp -o kursach && ./kursach
+  - g++ kursach.cpp -o kursach
+  - ./kursach
