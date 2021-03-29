@@ -40,5 +40,4 @@ int main(){
 	      cout << pcnt.arr[i];
 	}
 	//cout << "are you entered: " << pcnt.name << endl << pcnt.zxz;
-	system("pause");
 }
