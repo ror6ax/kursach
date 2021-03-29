@@ -13,5 +13,4 @@ before_install:
     - eval "${MATRIX_EVAL}"
     
 install:
-  - g++ kursach.cpp -o kursach
-  - ./kursach
+  - g++ -Wall -Wextra kursach.cpp -o kursach
